@@ -36,3 +36,20 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 .DS_Store
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Installed Jupyter support files
+/etc/
+/share/
+/pyvenv.cfg
+
+# Python and notebook caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
